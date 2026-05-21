@@ -1,0 +1,4 @@
+[console_scripts]
+multimodal-moderation = multimodal_moderation.app:main
+multimodal-moderation-api = multimodal_moderation.fastapi_app:main
+multimodal-moderation-chat = multimodal_moderation.gradio_app:main

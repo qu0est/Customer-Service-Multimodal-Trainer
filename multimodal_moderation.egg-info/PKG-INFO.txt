@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: multimodal_moderation
+Version: 0.1.0
+Summary: A multimodal content moderation agent using Google AI
+Author: Giacomo Vianello
+License-Expression: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.104.0
+Requires-Dist: uvicorn[standard]>=0.24.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pydantic-ai>=0.1.0
+Requires-Dist: google-genai>=0.3.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: gradio>=4.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: filetype>=1.2.0
+Requires-Dist: arize-phoenix>=12.2.0
+Requires-Dist: openinference-instrumentation-pydantic-ai>=0.1.7
